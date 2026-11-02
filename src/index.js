@@ -8,7 +8,8 @@ const port = process.env.PORT || 3000;
 // Ruta principal
 app.get('/', (req, res) => {
     res.json({
-        mensaje: '¡Aplicación desplegada con Dokploy!',
+        mensaje: '¡Actualización automática con Dokploy!',
+        version: '2.0.0',
         institucion: 'Universidad del Quindío',
         programa: 'Ingeniería de Sistemas y Computación',
         curso: 'Administración de Infraestructura de TI',
